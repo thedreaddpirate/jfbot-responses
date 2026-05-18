@@ -6,7 +6,7 @@ If you dont have access to the dashboard you can find your logfiles in the follo
 
 - For Linux: `/var/lib/jellyfin/logs`
 - For Windows: `%programdata%/jellyfin/logs`
-- For Docker: You need to [mount](https://docs.docker.com/engine/storage/bind-mounts/) your config directory and then navigate to that mounts folder /logs
+- For Docker: On the docker host, the directory you map in as /config will have a "logs" directory in it.
 
 We recommend an external site like
 
